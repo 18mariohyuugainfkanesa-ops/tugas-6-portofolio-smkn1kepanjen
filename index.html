@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website portofolio pribadi">
+    <title>Portofolio Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar container">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Buka menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#skills" class="nav-link">Keahlian</a></li>
+                <li><a href="#projects" class="nav-link">Project</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                    type="button" aria-label="Ganti ke mode terang"
+                    title="Ganti tema">
+                ☀️
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="hero" id="home">
+            <div class="container hero-content reveal">
+                <div class="profile-wrapper">
+    <img src="foto.jpeg" alt="Foto Mario" class="profile-img">
+    <span class="online-dot"></span>
+</div>
+                <p class="eyebrow">HALO, PERKENALKAN NAMA SAYA</p>
+
+                <h1>MARIO HYUUGA REZA <span class="accent">ANGGA PRATAMA</span></h1>
+
+                <h2 class="job-title">
+                    Saya seorang <span>Web Developer</span>
+                </h2>
+
+                <p class="hero-description">
+                    Saya adalah seorang pelajar yang tertarik pada
+                    dunia teknologi, pemrograman, dan desain.
+                    Saya senang mempelajari hal baru serta
+                    mengembangkan ide menjadi karya digital.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Lihat Project →
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Hubungi Saya
+                    </a>
+                </div>
+
+                <div class="social-mini">
+                    <a href="https://instagram.com/username"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="Instagram">IG</a>
+                    <a href="https://github.com/username"
+                       target="_blank" rel="noopener noreferrer"
+                       aria-label="GitHub">GH</a>
+                    <a href="mailto:emailkamu@gmail.com"
+                       aria-label="Email">@</a>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-down">↓</a>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KENALI SAYA</p>
+                    <h2>Tentang <span class="accent">Saya</span></h2>
+                    <p>Berikut sedikit informasi mengenai diri saya.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image reveal">
+                        <img src="foto.jpeg" alt="Foto profil saya">
+                        <div class="image-label">
+                            <span>✨</span>
+                            Terus belajar dan berkembang
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal">
+                        <h3>Halo! Saya <span class="accent">Nama Kamu</span></h3>
+
+                        <p>
+                            Saya adalah seorang pelajar yang memiliki
+                            minat dalam bidang teknologi informasi,
+                            terutama Web Development dan UI/UX Design.
+                        </p>
+
+                        <p>
+                            Saya senang menciptakan website yang
+                            menarik, responsif, dan mudah digunakan.
+                            Saya selalu berusaha meningkatkan
+                            kemampuan melalui pembelajaran dan
+                            berbagai proyek kreatif.
+                        </p>
+
+                        <div class="personal-info">
+                            <div>
+                                <span>Nama</span>
+                                <strong>Mario Hyuuga Reza Angga Pratama</strong>
+                            </div>
+                            <div>
+                                <span>Profesi</span>
+                                <strong>Pelajar / Web Developer</strong>
+                            </div>
+                            <div>
+                                <span>Lokasi</span>
+                                <strong>Indonesia</strong>
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <strong>18mariohyuugainfkanesa@gmail.com</strong>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary">
+                            Hubungi Saya →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">KEMAMPUAN SAYA</p>
+                    <h2>Keahlian <span class="accent">Saya</span></h2>
+                    <p>Beberapa bidang yang saya pelajari dan kembangkan.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Membuat struktur halaman website yang rapi.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Mendesain tampilan website yang menarik dan responsif.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Membuat website lebih interaktif dan dinamis.</p>
+                    </div>
+
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">🖌️</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Mempelajari desain antarmuka yang mudah digunakan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">HASIL KARYA</p>
+                    <h2>Project <span class="accent">Saya</span></h2>
+                    <p>Contoh karya dan proyek yang dapat ditampilkan di portofolio.</p>
+                </div>
+
+                <div class="project-grid">
+                    <article class="project-card reveal">
+                        <img src="modul1.png"
+                            src="https://placehold.co/700x450/1e3a5f/ffffff?text=Portfolio+Website"
+                            alt="Website portofolio"
+                            class="project-img">
+                        <div class="project-body">
+                            <span class="project-type">modul-1</span>
+                            <h3>Web Project 1</h3>
+                            <p>
+                                An introductoy projrtc for understanding web pege sructure and development fundamentals.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="https://github.com/18mariohyuugainfkanesa-ops/Tugas-1-smkn1kepanjen">
+                                Lihat Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="modul2.png"
+                            src="https://placehold.co/700x450/334155/ffffff?text=School+Website"
+                            alt="Website sekolah"
+                            class="project-img">
+                        <div class="project-body">
+                            <span class="project-type">modul-2</span>
+                            <h3>Website Sekolah</h3>
+                            <p>
+                                A project focused on CSS styling, Flexbox, Layout, And responsive design.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="https://github.com/18mariohyuugainfkanesa-ops/tugas-2-smkn1kepanjen">
+                                Lihat Project ↗
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="modul3.png"
+                            src="https://placehold.co/700x450/4338ca/ffffff?text=UI+Design"
+                            alt="Desain UI"
+                            class="project-img">
+                        <div class="project-body">
+                            <span class="project-type">modul-3</span>
+                            <h3>Desain Aplikasi</h3>
+                            <p>
+                                An advenced project combining HTML, CSS, and JavaScript.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="https://github.com/18mariohyuugainfkanesa-ops/tugas-3-smkn1kepanjen">
+                                Lihat Project ↗
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MARI TERHUBUNG</p>
+                    <h2>Hubungi <span class="accent">Saya</span></h2>
+                    <p>
+                        Silakan hubungi saya melalui media sosial
+                        atau email berikut.
+                    </p>
+                </div>
+
+                <div class="contact-card reveal">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Punya pertanyaan atau ide proyek?</h3>
+                    <p>
+                        Saya senang untuk belajar, berdiskusi,
+                        dan berkolaborasi dalam proyek kreatif.
+                    </p>
+
+                    <a href="mailto:emailkamu@gmail.com"
+                       class="btn btn-primary">
+                        Kirim Email →
+                    </a>
+
+                    <div class="contact-links">
+                        <a href="https://www.instagram.com/mariohyuuga?stkn=cDUzMzA0N3NheWlp"
+                           target="_blank" rel="noopener noreferrer">
+                            📷 Instagram
+                        </a>
+                        
+                        <a href=https://github.com/18mariohyuugainfkanesa-ops
+                           target="_blank" rel="noopener noreferrer">
+                            💻 GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <a href="#home" class="logo">My<span>Portfolio.</span></a>
+            <p>© <span id="year"></span> MARIO HYUUGA REZA ANGGA PRTAMA. Dibuat dengan penuh kreativitas.</p>
+            <a href="#home" class="back-top">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
